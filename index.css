@@ -809,7 +809,105 @@ font-size:20px;
                 }
              }
 
-             
+          /*blogger part css*/
+           
+           .full3{
+             width: 100%;
+             min-height: 100vh;
+            background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("https://th.bing.com/th/id/R3c1aecef73314bf7cbb78104f62cae0b?rik=iuEBBKtmSnMzfg&riu=http%3a%2f%2fwww.unariunwisdom.com%2fwp-content%2fuploads%2f2017%2f07%2fHimalayan-Mountains-2-post.jpg&ehk=HXAA0KvWyN%2b0%2bizbb5brq3UJZKQQQJQKbJw%2fqJ%2fAjdc%3d&risl=&pid=ImgRaw");
+        background-size: cover;
+        background-position:center ; 
+           }
+           .full3 .roow{
+               width:85%;
+               margin: auto;
+
+           }
+         .blogging{
+               width: 60%;
+               text-align: center;
+               margin: auto;
+               padding-top: 30px;
+               font-size: 55px;
+               font-family: sans-serif;
+               color:whitesmoke;
+               text-shadow: 2px 2px 5px  rgb(0, 0, 0);
+
+           }
+          
+
+         
+           .blog{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               margin: auto;
+               margin-left: 20px;
+
+
+           }
+
+           .block{
+               margin-left: 40px;
+               margin-top: 40px;
+               transition: transform 0.6s;
+              
+
+           }
+           .block:hover{
+            transform: translateY(-14px);
+        }
+           
+           .button3{
+
+            font-family: serif ;
+            width: 60%;
+            text-align: center;
+            margin: auto;
+            margin-left: 500px;
+            font-size: 15px;
+            width: 150px;
+            padding: 5px 0;
+            margin-top: 10px;
+            font-weight: bold;
+            border:2px solid #1f596b63;
+            background:transparent;
+            color:rgb(255, 255, 255);
+            cursor: pointer;
+            position:relative;
+            overflow:hidden;
+            text-shadow: 2px 2px 5px  rgb(0, 0, 0);
+        
+           }
+          
+
+           .blogpic{
+               border-radius: 5%;
+               width: 90%;
+               height: auto;
+              
+               box-shadow: 3px 3px 5px rgba(202, 200, 200, 0);
+               margin-top: 40px;
+
+           }
+           .bloghead{
+               font-family: helvetica;
+               font-size: 17px;
+               margin-top: 10px;
+               color: whitesmoke;
+           }
+           .date{
+            font-family: monosapce;
+            font-size: 15px;
+            margin-top: 5px;
+            color: whitesmoke;
+           }
+
+        .link2{
+           text-decoration: none;
+           color:whitesmoke;
+}
+        
              
              
              
